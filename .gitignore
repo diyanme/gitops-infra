@@ -1,0 +1,14 @@
+# OS
+.DS_Store
+*.swp
+
+# Local overrides
+*.local.yaml
+.env
+
+# Kubeconfigs — NEVER commit these
+kubeconfig
+*.kubeconfig
+
+# Helm
+*.tgz
